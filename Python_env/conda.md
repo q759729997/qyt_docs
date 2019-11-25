@@ -18,7 +18,7 @@ conda env list  # 查看所有环境
 - 安装与卸载环境
 
 ~~~python
-conda create --name python36 python=3.6  # 创建环境，并指明python版本
+conda create --name python36 python=3.6  # 创建环境，并指明python版本，conda create --name python27 python=2.7  
 conda env remove -n python36 --all  # 删除环境，python36为环境名称，--all为删除该环境下所有包
 conda create -n myenv --clone /data/conda_env  # 导入环境
 /miniconda3/envs/python36/lib/python3.6/site-packages # 包位置
