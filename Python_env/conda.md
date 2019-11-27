@@ -22,6 +22,7 @@ conda create --name python36 python=3.6  # 创建环境，并指明python版本�
 conda env remove -n python36 --all  # 删除环境，python36为环境名称，--all为删除该环境下所有包
 conda create -n myenv --clone /data/conda_env  # 导入环境
 /miniconda3/envs/python36/lib/python3.6/site-packages # 包位置
+tar -czvf env_python36.tar.gz python36  # 压缩环境
 ~~~
 
 ## 安装
@@ -62,3 +63,10 @@ trusted-host=http://mirrors.aliyun.com/pypi/simple/
 阿里云：http://mirrors.aliyun.com/pypi/simple/
 豆瓣：http://pypi.douban.com/simple/
 ~~~
+
+- pip只下载不安装
+
+~~~
+pip download -d ./ request -i https://pypi.douban.com/simple
+~~~
+
