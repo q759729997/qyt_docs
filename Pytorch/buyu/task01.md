@@ -8,7 +8,7 @@
 
 2. 批量的损失函数平均值计算公式中，除以2是为了简化求导运算：
 
-![img](https://upload-images.jianshu.io/upload_images/8518346-69ff119665ead6ac.png?imageMogr2/auto-orient/strip|imageView2/2/w/687/format/webp)
+![image-20200224213243487](task01.assets/image-20200224213243487.png)
 
 回归损失函数
 
