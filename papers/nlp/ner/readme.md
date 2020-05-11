@@ -9,6 +9,11 @@
 - [n] 向晓雯，史晓东，曾华琳．一个统计与规则相结合的中文命名实体识别系统[J]．计算机应用，2005，10: 2404-2406. 
 - [n] 张海楠，伍大勇．基于深度神经网络的中文命名实体识别[J]．中文信息学报，2017，4: 28-35. 
 - [n] 栗伟，赵大哲．CRF与规则相结合的医学病历实体识别[J]．计算机应用研究，2015，4: 1082-1086. 
+- Li J, Sun A, Han J, et al. A Survey on Deep Learning for Named Entity Recognition[J]. IEEE Transactions on Knowledge and Data Engineering, 2020, PP(99):1-1.
+- Mikolov T. Distributed Representations of Words and Phrases and Their Compositionality[J]. Advances in Neural Information Processing Systems, 2013, 26:3111-3119.
+- Mikolov T, Chen K, Corrado G, et al. Efficient Estimation of Word Representations in Vector Space[J]. Computer ence, 2013.
+- Bojanowski P, Grave E, Joulin A, et al. Enriching Word Vectors with Subword Information[J]. Transactions of the Association for Computational Linguistics, 2017, 5:135-146.
+
 
 ### 论文集
 
@@ -17,6 +22,7 @@
 - 例如：[6] 中国力学学会.第3届全国实验流体力学学术会议 论文集[C].天津:[出版社不祥],1990.
 - [n] L.F.Rau. Extracting company names from text[C]. The Seventh IEEE Conference on Artificial Intelligence Application. USA:IEEE, 1991:29-32.
 - [n] 董俊林,聂伟,杨君英,等. 命名实体识别与提取分析[C]. 逻辑学及其应用研究——第四届全国逻辑系统、智能科学与信息科学学术会议论文集. 中国贵州贵阳:[出版社不祥], 2008:37-40.
+- Pennington J, Socher R, Manning C. Glove: Global Vectors for Word Representation[C]. Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP). 2014.
 
 
 ### 专著
