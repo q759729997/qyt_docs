@@ -73,8 +73,9 @@ docker commit ubuntu_20_04  ubuntu_zh:20_04
 # 打包镜像
 docker save -o ubuntu_zh_20_04.tar ubuntu_zh:20_04
 # 上传
-docker tag docker.io/q759729997/ubuntu_zh:20_04 ubuntu_zh:20_04
-docker push ubuntu_zh:20_04
+docker tag ubuntu_zh:20_04 docker.io/q759729997/ubuntu_zh:20_04
+docker login
+docker push docker.io/q759729997/ubuntu_zh:20_04
 ~~~
 
 - 安装libreoffice
