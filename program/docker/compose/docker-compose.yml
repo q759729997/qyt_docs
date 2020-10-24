@@ -1,0 +1,23 @@
+version: '3'
+services:
+    chatbot_guodiao_automation:
+        image: ubuntu_zh_python:3_7_9
+        container_name: chatbot_guodiao_automation
+        ports:
+            - "15001:5002"
+        volumes:
+            - "/root/qiaoyongtian/docker_projects:/root/projects"
+        working_dir: "/root/projects"
+        privileged: true
+        command:  # 串行运行
+            - /bin/bash 
+            - -c 
+            - |
+                echo "=============查看工作目录============="
+                pwd
+                echo "=============激活Python环境============="
+                export PATH="/root/miniconda3/bin:$PATH"
+                source activate python37
+                python --version
+                echo "=============保持容器不关闭============="
+                while true; do sleep 1; done
