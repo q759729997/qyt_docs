@@ -1,0 +1,21 @@
+version: '3'
+services:
+    chatbot_guodiao_automation:
+        image: ubuntu_zh_python:3_7_9
+        container_name: time_set_test
+        ports:
+            - "15001:5002"
+        volumes:
+            - "/etc/localtime:/etc/localtime:ro"  # 容器只能从主机的/etc/localtime中读取
+            - "/root/qiaoyongtian/docker_projects:/root/projects"
+        working_dir: "/root/projects"
+        privileged: true
+        command:  # 串行运行
+            - /bin/bash
+            - -c
+            - |
+                echo "=============查看当前工作目录============="
+                pwd
+                echo "=============容器时区与当前时间查看============="
+                echo "容器内当前时间为：" | date "+%Y-%m-%d %X"
+                echo "容器内当前时区为：" | date "+%Z"
