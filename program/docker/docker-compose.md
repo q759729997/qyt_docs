@@ -1,4 +1,14 @@
-# docker-compose command 执行多条指令
+# compose
+
+## 健康检查
+
+- 容器内服务配置：
+
+~~~shell
+
+~~~
+
+## docker-compose command 执行多条指令
 
 - 方式一：/bin/bash -c 字符串方式
 
@@ -36,7 +46,7 @@ command: /bin/bash -c " while true; do sleep 1; done"
 ~~~shell
 command:
     - sh
-    - -c 
+    - -c
     - |
         cmd1
         cmd2
@@ -50,7 +60,7 @@ Linux 把命令行扔后台运行的一个办法就是在后面加上 &，但在
 ~~~shell
 command:
     - sh
-    - -c 
+    - -c
     - |
         cmd1 &
         cmd2 &
